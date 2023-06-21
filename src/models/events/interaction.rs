@@ -74,6 +74,8 @@ pub struct SlackInteractionActionInfo {
     pub text: Option<SlackBlockText>,
     pub value: Option<String>,
     pub selected_option: Option<SlackBlockChoiceItem<SlackBlockText>>,
+    pub selected_date: Option<String>,
+    pub initial_date: Option<String>,
     pub action_ts: Option<SlackTs>,
 }
 
